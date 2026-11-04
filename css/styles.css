@@ -260,18 +260,31 @@ a:hover {
 /* Buttons */
 .button {
   display: inline-block;
-  padding: 0.6rem 1.25rem;
+  padding: 0.5rem 1.25rem;
   font-weight: 600;
   color: var(--color-paper);
   text-decoration: none;
   background: var(--color-hanko);
+  border: 2px solid var(--color-hanko);
   border-radius: var(--radius);
-  transition: background-color 0.15s;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
 }
 
 .button:hover {
   color: var(--color-paper);
   background: var(--color-hanko-dark);
+  border-color: var(--color-hanko-dark);
+}
+
+.button--outline {
+  color: var(--color-hanko);
+  background: transparent;
+}
+
+.button--outline:hover {
+  color: var(--color-paper);
+  background: var(--color-hanko);
+  border-color: var(--color-hanko);
 }
 
 /* Tags */
@@ -378,11 +391,50 @@ a:hover {
   object-fit: cover;
 }
 
+.polaroid--portrait img {
+  aspect-ratio: 4 / 5;
+}
+
 .polaroid__caption {
   padding: var(--space-2) var(--space-1) var(--space-3);
   font-size: var(--text-small);
   font-style: italic;
   color: var(--color-ink-muted);
+}
+
+/* Hero (home page) */
+.hero {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+  padding-block: var(--space-5);
+}
+
+.hero__lead {
+  max-width: 32rem;
+  font-size: 1.3rem;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.hero__photo {
+  justify-self: center;
+  width: min(100%, 22rem);
+}
+
+@media (min-width: 48rem) {
+  .hero {
+    grid-template-columns: 1.2fr 1fr;
+  }
+
+  .hero__photo {
+    justify-self: end;
+  }
 }
 
 /* Personal rating */

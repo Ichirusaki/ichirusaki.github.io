@@ -3,14 +3,121 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- staging:start (remove this block at launch) -->
   <meta name="robots" content="noindex, nofollow">
-  <title>Tabinotas</title>
-  <meta name="description" content="Guía de viajes por Japón con los lugares que he visitado.">
+  <!-- staging:end -->
+
+  <title>Tabinotas | Guía de viajes por Japón</title>
+  <meta name="description" content="Guía de viajes por Japón con los lugares que he visitado: qué ver, dónde comer, fotos propias, consejos prácticos y mi valoración personal de cada ciudad.">
+  <meta name="author" content="Albert Morán López">
+  <link rel="canonical" href="https://ichirusaki.github.io/">
+  <meta name="theme-color" content="#f6efe2">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tabinotas">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Tabinotas | Guía de viajes por Japón">
+  <meta property="og:description" content="Guía de viajes por Japón con los lugares que he visitado: qué ver, dónde comer, fotos propias, consejos prácticos y mi valoración personal de cada ciudad.">
+  <meta property="og:url" content="https://ichirusaki.github.io/">
+  <meta property="og:image" content="https://ichirusaki.github.io/img/social/og-default.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pabellón del Fénix del templo Byodo-in, en Uji, con el estanque en primer plano">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preload" href="/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Tabinotas",
+    "url": "https://ichirusaki.github.io/",
+    "inLanguage": "es",
+    "author": {
+      "@type": "Person",
+      "name": "Albert Morán López"
+    }
+  }
+  </script>
 </head>
 <body>
-  <main>
-    <h1>Tabinotas</h1>
-    <p>Sitio en construcción.</p>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <span class="brand__seal" lang="ja" aria-hidden="true">旅</span>
+        Tabinotas
+      </a>
+      <nav class="site-nav" aria-label="Principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="/" aria-current="page">Inicio</a></li>
+          <li><a class="site-nav__link" href="/cities/">Ciudades</a></li>
+          <li><a class="site-nav__link" href="/guides/">Guías</a></li>
+          <li><a class="site-nav__link" href="/about-me.html">Sobre mí</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section class="hero">
+      <div class="hero__text">
+        <h1>Tabinotas</h1>
+        <p class="hero__lead">Los rincones de Japón que he pisado, con fotos y consejos de primera mano.</p>
+        <div class="hero__actions">
+          <a class="button" href="/cities/">Ver las ciudades</a>
+          <a class="button button--outline" href="/guides/">Guías prácticas</a>
+        </div>
+      </div>
+      <figure class="polaroid polaroid--portrait hero__photo">
+        <img
+          src="/img/home/byodo-in-hero-1080.webp"
+          srcset="/img/home/byodo-in-hero-720.webp 720w, /img/home/byodo-in-hero-1080.webp 1080w"
+          sizes="(min-width: 48rem) 22rem, 80vw"
+          alt="Pabellón del Fénix del templo Byodo-in, en Uji, con el estanque en primer plano"
+          width="1080"
+          height="1350"
+          fetchpriority="high">
+        <figcaption class="polaroid__caption">Byodo-in, en Uji: el templo que aparece en las monedas de 10 yenes.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section" aria-labelledby="explore-title">
+      <h2 id="explore-title">Qué encontrarás</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card__body">
+            <h3 class="card__title"><a href="/cities/">Ciudades</a></h3>
+            <p>Una guía por cada ciudad que he visitado: qué ver, dónde comer y cenar, mis recomendaciones y una valoración personal, con mis propias fotos.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__body">
+            <h3 class="card__title"><a href="/guides/">Guías prácticas</a></h3>
+            <p>Consejos útiles para cualquier zona de Japón: cómo moverse en tren y en autobús, cómo tener internet, qué aplicaciones instalar y mucho más.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="about-title">
+      <h2 id="about-title">Sobre mí</h2>
+      <div class="prose">
+        <p>Soy Albert Morán López y este blog reúne los lugares de Japón que he visitado en mis viajes: qué ver, dónde comer y qué me ha parecido cada sitio, siempre con fotos propias.</p>
+        <p><a class="button button--outline" href="/about-me.html">Conocer más sobre mí</a></p>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Albert Morán López · Tabinotas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>
