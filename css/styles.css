@@ -236,7 +236,7 @@ a:hover {
 }
 
 .site-nav__link:hover,
-.site-nav__link[aria-current="page"] {
+.site-nav__link[aria-current] {
   color: var(--color-ink);
   border-bottom-color: var(--color-hanko);
 }
@@ -437,6 +437,96 @@ a:hover {
   }
 }
 
+/* Article header */
+.article-meta {
+  margin: 0 0 var(--space-4);
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+/* Fact sheet (quick facts box) */
+.fact-sheet {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: var(--space-3);
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3);
+  background: var(--color-paper-dark);
+  border-radius: var(--radius);
+}
+
+.fact-sheet__term {
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-indigo);
+}
+
+.fact-sheet__value {
+  margin: 0;
+}
+
+/* Table of contents */
+.toc {
+  max-width: var(--content-width);
+  margin: 0 0 var(--space-4);
+  padding: var(--space-3);
+  background: var(--color-paper-light);
+  border: 2px dashed var(--color-ink-muted);
+  border-radius: var(--radius);
+}
+
+.toc__title {
+  margin-bottom: var(--space-2);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+}
+
+.toc__list {
+  margin: 0;
+  padding-left: var(--space-4);
+}
+
+/* Places (sights and restaurants) */
+.place-list {
+  max-width: var(--content-width);
+}
+
+.place {
+  padding-block: var(--space-4);
+  border-top: 1px dashed var(--color-ink-muted);
+}
+
+.place:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.place__title {
+  margin-bottom: var(--space-1);
+}
+
+.place__details {
+  display: grid;
+  gap: var(--space-1);
+  margin: var(--space-2) 0;
+  font-size: var(--text-small);
+}
+
+.place__detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--space-2);
+}
+
+.place__label {
+  font-weight: 600;
+  color: var(--color-indigo);
+}
+
+.place__value {
+  margin: 0;
+}
+
 /* Personal rating */
 .rating {
   display: flex;
@@ -458,6 +548,43 @@ a:hover {
 
 .rating__text {
   margin: 0;
+}
+
+/* Verdict (rating plus pros, cons and recommended days) */
+.verdict {
+  display: grid;
+  gap: var(--space-3);
+  max-width: var(--content-width);
+}
+
+.verdict__lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--space-3);
+}
+
+.verdict__title {
+  margin-bottom: var(--space-1);
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+}
+
+.verdict__title--good {
+  color: var(--color-indigo);
+}
+
+.verdict__title--bad {
+  color: var(--color-hanko);
+}
+
+.verdict__list {
+  margin: 0;
+  padding-left: var(--space-4);
+}
+
+.verdict__days {
+  margin: 0;
+  font-weight: 600;
 }
 
 /* Callout (tips and recommendations) */
