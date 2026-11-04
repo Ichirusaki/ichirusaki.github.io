@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Guía de estilo | Tabinotas</title>
+  <link rel="preload" href="/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <span class="brand__seal" lang="ja" aria-hidden="true">旅</span>
+        Tabinotas
+      </a>
+      <nav class="site-nav" aria-label="Principal">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="/">Inicio</a></li>
+          <li><a class="site-nav__link" href="/cities/">Ciudades</a></li>
+          <li><a class="site-nav__link" href="/guides/">Guías</a></li>
+          <li><a class="site-nav__link" href="/about-me.html">Sobre mí</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <ol class="breadcrumbs__list">
+        <li class="breadcrumbs__item"><a href="/">Inicio</a></li>
+        <li class="breadcrumbs__item"><a href="/cities/">Ciudades</a></li>
+        <li class="breadcrumbs__item" aria-current="page">Guía de estilo</li>
+      </ol>
+    </nav>
+
+    <section class="section">
+      <h1>Guía de estilo</h1>
+      <p>Página interna para revisar todos los componentes juntos. No está pensada para los lectores.</p>
+    </section>
+
+    <section class="section" aria-labelledby="typography-title">
+      <h2 id="typography-title">Tipografía y enlaces</h2>
+      <div class="prose">
+        <h1>Título de nivel 1</h1>
+        <h2>Título de nivel 2</h2>
+        <h3>Título de nivel 3</h3>
+        <p>Texto de párrafo con un <a href="#">enlace de ejemplo</a>, <strong>negrita</strong> y <em>cursiva</em>. Incluye acentos, ñ, ¿signos? y ¡exclamaciones! para comprobar la fuente. Texto japonés: <span lang="ja">京都、大阪、東京</span>.</p>
+        <ul>
+          <li>Elemento de lista uno</li>
+          <li>Elemento de lista dos</li>
+        </ul>
+        <blockquote>
+          <p>Una cita o un pensamiento personal sobre el viaje.</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="buttons-title">
+      <h2 id="buttons-title">Botones y etiquetas</h2>
+      <p><a class="button" href="#">Ver todas las ciudades</a></p>
+      <p>
+        <span class="tag">Kansai</span>
+        <span class="tag">Templos</span>
+        <span class="tag">Gastronomía</span>
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="cards-title">
+      <h2 id="cards-title">Tarjetas</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="card__media">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'><rect width='600' height='400' fill='%23d9cdb4'/></svg>" alt="" width="600" height="400">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title"><a href="#">Kioto</a></h3>
+            <p class="card__meta">Ciudades · Kansai</p>
+            <p>Descripción breve de la ciudad en una o dos frases.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card__media">
+            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'><rect width='600' height='400' fill='%23d9cdb4'/></svg>" alt="" width="600" height="400">
+          </div>
+          <div class="card__body">
+            <h3 class="card__title"><a href="#">Cómo usar los trenes</a></h3>
+            <p class="card__meta">Guías · Transporte</p>
+            <p>Resumen de la guía práctica en una o dos frases.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Galería de fotos</h2>
+      <div class="gallery">
+        <figure class="polaroid">
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'><rect width='600' height='400' fill='%23d9cdb4'/></svg>" alt="Imagen de ejemplo" width="600" height="400" loading="lazy">
+          <figcaption class="polaroid__caption">Pie de foto de ejemplo</figcaption>
+        </figure>
+        <figure class="polaroid">
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'><rect width='600' height='400' fill='%23d9cdb4'/></svg>" alt="Imagen de ejemplo" width="600" height="400" loading="lazy">
+          <figcaption class="polaroid__caption">Otro pie de foto</figcaption>
+        </figure>
+        <figure class="polaroid">
+          <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='400'><rect width='600' height='400' fill='%23d9cdb4'/></svg>" alt="Imagen de ejemplo" width="600" height="400" loading="lazy">
+          <figcaption class="polaroid__caption">Un tercer pie de foto</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="rating-title">
+      <h2 id="rating-title">Valoración personal</h2>
+      <div class="rating">
+        <span class="rating__score" aria-label="Nota: 9 sobre 10">9/10</span>
+        <p class="rating__text">Resumen de mi valoración personal del lugar en una frase.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="callout-title">
+      <h2 id="callout-title">Caja de consejo</h2>
+      <aside class="callout">
+        <h3 class="callout__title">Consejo</h3>
+        <p>Una recomendación práctica, por ejemplo sobre el mejor momento para visitar un lugar.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Tabinotas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
