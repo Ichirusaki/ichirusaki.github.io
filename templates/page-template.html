@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- staging:start (remove this block at launch) -->
+  <meta name="robots" content="noindex, nofollow">
+  <!-- staging:end -->
+
+  <title>{{PAGE_TITLE}} | Tabinotas</title>
+  <meta name="description" content="{{PAGE_DESCRIPTION}}">
+  <meta name="author" content="Albert Morán López">
+  <link rel="canonical" href="https://ichirusaki.github.io/{{PAGE_PATH}}">
+  <meta name="theme-color" content="#f6efe2">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tabinotas">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="{{PAGE_TITLE}} | Tabinotas">
+  <meta property="og:description" content="{{PAGE_DESCRIPTION}}">
+  <meta property="og:url" content="https://ichirusaki.github.io/{{PAGE_PATH}}">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preload" href="/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/source-sans-3-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="/">
+        <span class="brand__seal" lang="ja" aria-hidden="true">旅</span>
+        Tabinotas
+      </a>
+      <nav class="site-nav" aria-label="Principal">
+        <ul class="site-nav__list">
+          <!-- Add aria-current="page" to the link of the current section -->
+          <li><a class="site-nav__link" href="/">Inicio</a></li>
+          <li><a class="site-nav__link" href="/cities/">Ciudades</a></li>
+          <li><a class="site-nav__link" href="/guides/">Guías</a></li>
+          <li><a class="site-nav__link" href="/about-me.html">Sobre mí</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación">
+      <ol class="breadcrumbs__list">
+        <li class="breadcrumbs__item"><a href="/">Inicio</a></li>
+        <li class="breadcrumbs__item" aria-current="page">{{PAGE_TITLE}}</li>
+      </ol>
+    </nav>
+
+    <section class="section">
+      <h1>{{PAGE_TITLE}}</h1>
+      <div class="prose">
+        <p>Contenido de la página.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Albert Morán López · Tabinotas. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
