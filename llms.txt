@@ -1,0 +1,16 @@
+# Tabinotas
+
+> Guía de viajes por Japón con los lugares que he visitado: qué ver, dónde comer, fotos propias, consejos prácticos y mi valoración personal de cada ciudad.
+
+Autor: Albert Morán López.
+
+## Páginas principales
+
+- [Inicio](https://ichirusaki.github.io/): Guía de viajes por Japón con los lugares que he visitado: qué ver, dónde comer, fotos propias, consejos prácticos y mi valoración personal de cada ciudad.
+- [Sobre mí](https://ichirusaki.github.io/about-me.html): Soy Albert Morán López, autor de Tabinotas: un cuaderno de viajes por Japón con mis dos viajes, las zonas que he visitado y por qué creé el blog.
+- [Ciudades de Japón que he visitado](https://ichirusaki.github.io/cities/): Guías de las ciudades de Japón que he visitado, agrupadas por región: qué ver, dónde comer y mi valoración personal de cada lugar.
+- [Guías prácticas para viajar a Japón](https://ichirusaki.github.io/guides/): Guías prácticas para viajar a Japón: transporte, internet, aplicaciones, dinero y consejos generales, basadas en mi propia experiencia.
+
+## Ciudades
+
+- [Izumo: qué ver, dónde comer y mi valoración](https://ichirusaki.github.io/cities/izumo.html): Guía de Izumo basada en mi visita de octubre de 2026: cómo llegar desde Hiroshima, Izumo Taisha, la playa de Inasa, dónde comer soba y mi valoración.
