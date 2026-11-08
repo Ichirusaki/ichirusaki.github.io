@@ -402,17 +402,18 @@ a:hover {
   color: var(--color-ink-muted);
 }
 
-/* Hero (home page) */
+/* Lead paragraph (page intros) and hero (home and about pages) */
+.lead,
+.hero__lead {
+  max-width: 32rem;
+  font-size: 1.3rem;
+}
+
 .hero {
   display: grid;
   gap: var(--space-5);
   align-items: center;
   padding-block: var(--space-5);
-}
-
-.hero__lead {
-  max-width: 32rem;
-  font-size: 1.3rem;
 }
 
 .hero__actions {
@@ -606,6 +607,131 @@ a:hover {
 
 .callout p:last-child {
   margin-bottom: 0;
+}
+
+/* Empty state (index pages without published articles) */
+.empty-state {
+  max-width: var(--content-width);
+  padding: var(--space-4);
+  background: var(--color-paper-light);
+  border: 2px dashed var(--color-ink-muted);
+  border-radius: var(--radius);
+}
+
+.empty-state__title {
+  margin-bottom: var(--space-2);
+  font-size: var(--text-h3);
+}
+
+.empty-state p:last-child {
+  margin-bottom: 0;
+}
+
+/* Related articles */
+.related {
+  max-width: var(--content-width);
+}
+
+.related__list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.related__item {
+  position: relative;
+  padding: var(--space-3);
+  background: var(--color-paper-dark);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.related__title {
+  margin-bottom: var(--space-1);
+  font-size: var(--text-h3);
+}
+
+/* Makes the whole item clickable through its title link */
+.related__title a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.related__text {
+  margin: 0;
+  font-size: var(--text-small);
+  color: var(--color-ink-muted);
+}
+
+/* Numbered steps (guides) */
+.steps {
+  max-width: var(--content-width);
+  margin: 0 0 var(--space-4);
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+.steps__item {
+  position: relative;
+  margin-bottom: var(--space-4);
+  padding-left: 3rem;
+  counter-increment: step;
+}
+
+.steps__item::before {
+  content: counter(step);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: var(--color-paper);
+  background: var(--color-hanko);
+  border-radius: 50%;
+}
+
+.steps__title {
+  margin-bottom: var(--space-1);
+}
+
+/* Comparison table (guides) */
+.table-wrap {
+  max-width: 100%;
+  margin: 0 0 var(--space-4);
+  overflow-x: auto;
+}
+
+.compare-table {
+  width: 100%;
+  min-width: 32rem;
+  border-collapse: collapse;
+  font-size: var(--text-small);
+}
+
+.compare-table caption {
+  padding-bottom: var(--space-2);
+  font-weight: 600;
+  text-align: left;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: var(--space-2) var(--space-3);
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px dashed var(--color-ink-muted);
+}
+
+.compare-table thead th {
+  background: var(--color-paper-dark);
 }
 
 /* Article body text */
