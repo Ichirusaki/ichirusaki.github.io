@@ -14,3 +14,7 @@ Autor: Albert Morán López.
 ## Ciudades
 
 - [Izumo: qué ver, dónde comer y mi valoración](https://ichirusaki.github.io/cities/izumo.html): Guía de Izumo basada en mi visita de octubre de 2026: cómo llegar desde Hiroshima, Izumo Taisha, la playa de Inasa, dónde comer soba y mi valoración.
+
+## Guías prácticas
+
+- [Dinero y pagos en Japón: efectivo y tarjeta](https://ichirusaki.github.io/guides/money-and-payments.html): Guía de dinero y pagos en Japón: por qué sigue haciendo falta efectivo, cómo sacarlo en el konbini, tarjeta IC, tax-free, propinas y cuánto gastar.
