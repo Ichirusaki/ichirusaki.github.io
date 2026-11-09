@@ -18,3 +18,4 @@ Autor: Albert Morán López.
 ## Guías prácticas
 
 - [Dinero y pagos en Japón: efectivo y tarjeta](https://ichirusaki.github.io/guides/money-and-payments.html): Guía de dinero y pagos en Japón: por qué sigue haciendo falta efectivo, cómo sacarlo en el konbini, tarjeta IC, tax-free, propinas y cuánto gastar.
+- [Transporte en Japón: trenes, buses y ferry](https://ichirusaki.github.io/guides/transport.html): Guía de transporte en Japón: tarjeta IC, trenes, shinkansen, buses locales e interurbanos, ferry, taxi y coche, con lo que reservé y lo que compré allí.
