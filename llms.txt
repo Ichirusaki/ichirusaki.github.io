@@ -18,6 +18,7 @@ Autor: Albert Morán López.
 ## Guías prácticas
 
 - [Apps para viajar a Japón: las que usé de verdad](https://ichirusaki.github.io/guides/apps-in-japan.html): Apps para viajar a Japón según mi experiencia: Google Maps, Tabelog, traductores, lector de tarjetas IC y apps de servicios. Ninguna es imprescindible.
+- [Etiqueta y consejos generales en Japón](https://ichirusaki.github.io/guides/etiquette-and-tips.html): Etiqueta y consejos para viajar a Japón: calzado, transporte, comida, templos, onsen, calle, efectivo, seguro y trámite de entrada, según mi experiencia.
 - [Internet en Japón: mi experiencia con Holafly](https://ichirusaki.github.io/guides/internet-in-japan.html): Cómo tuve internet en Japón en mis dos viajes con una eSIM de Holafly: coste, activación, qué significa «ilimitado», mi único problema y alternativas.
 - [Dinero y pagos en Japón: efectivo y tarjeta](https://ichirusaki.github.io/guides/money-and-payments.html): Guía de dinero y pagos en Japón: por qué sigue haciendo falta efectivo, cómo sacarlo en el konbini, tarjeta IC, tax-free, propinas y cuánto gastar.
 - [Transporte en Japón: trenes, buses y ferry](https://ichirusaki.github.io/guides/transport.html): Guía de transporte en Japón: tarjeta IC, trenes, shinkansen, buses locales e interurbanos, ferry, taxi y coche, con lo que reservé y lo que compré allí.
