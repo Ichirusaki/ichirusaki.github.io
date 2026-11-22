@@ -16,6 +16,8 @@ Autor: Albert Morán López.
 - [Arashiyama: qué ver, dónde comer y mi valoración](https://ichirusaki.github.io/cities/arashiyama.html): Guía de Arashiyama basada en mi visita de febrero de 2024: bosque de bambú, templos casi vacíos, dónde comer en Coffee Pado y mi valoración.
 - [Hiroshima: qué ver, dónde comer y mi valoración](https://ichirusaki.github.io/cities/hiroshima.html): Guía de Hiroshima basada en mi visita de octubre de 2026: parque de la Paz, castillo cerrado, cómo llegar y dónde comer, con mi valoración.
 - [Izumo: qué ver, dónde comer y mi valoración](https://ichirusaki.github.io/cities/izumo.html): Guía de Izumo basada en mi visita de octubre de 2026: cómo llegar desde Hiroshima, Izumo Taisha, la playa de Inasa, dónde comer soba y mi valoración.
+- [Kioto de copas y compras: whisky y bares](https://ichirusaki.github.io/cities/kyoto-drinks-and-shopping.html): Kioto más allá de los templos: bares de whisky, yakiniku, la destilería Yamazaki y compras de anime en Nishiki, con precios y mi valoración.
+- [Kioto espiritual: templos y jardines](https://ichirusaki.github.io/cities/kyoto-temples.html): Guía de los templos y jardines de Kioto que visité en 2024 y 2026: Kinkakuji, Fushimi Inari, Kiyomizudera, Ginkakuji y más, con precios y mi nota.
 - [Miyajima: qué ver, dónde comer y mi valoración](https://ichirusaki.github.io/cities/miyajima.html): Guía de Miyajima basada en mi visita de octubre de 2026: cómo llegar desde Hiroshima, el torii flotante, las mareas, dónde comer y mi valoración.
 
 ## Guías prácticas
